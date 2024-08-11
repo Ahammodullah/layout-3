@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Study with ahammod</title>
+
+<style>
+    .grid-container{
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto ; 
+         
+        
+    }
+
+    .grid-container>div{
+             background-color: aliceblue;
+             border: 2px solid green;
+             text-align: center;
+             font: size 1.5em;
+              
+    }
+
+    .item1{
+          grid-column: 1 / 7;
+   
+    }
+
+    .item2{
+          grid-column: 1/7;
+
+    }
+    .item3{
+          grid-column: 1/2;
+
+    }
+
+    .item4{
+          grid-column: 3/4;
+
+    }
+    .item5{
+          grid-column: 5/6;
+
+    }
+
+    .item6{
+          grid-column: 1/7;
+
+    }
+</style>
+</head>
+
+<body>
+    <div class="grid-container">
+
+
+        <div class="item1">
+            <h5> HEADER</h5>
+        </div>
+        
+        <div class="item2">
+            <h5>NAVIGATION </h5>
+        </div>
+        
+        <div class="item3">
+            <h5> BODY</h5>
+        </div>
+        
+        <div class="item4">
+            <h5> BODY</h5>
+        </div>
+        
+        <div class="item5">
+            <h5> BODY</h5>
+        </div>
+
+        <div class="item6">
+            <h5> FOOTER</h5>
+        </div>
+    </div>
+
+ 
+
+</body>
+</html>
